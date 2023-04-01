@@ -1,0 +1,15 @@
+name: bw25arm
+channels:
+    - conda-forge
+dependencies:
+    # core functionality
+    - python=3.11
+    # data science
+    - pandas
+    - numpy
+    - scipy
+    # jupyter
+    - jupyterlab
+    # lca
+    - cmutel::brightway2_nosolver
+    - scikit-umfpack
