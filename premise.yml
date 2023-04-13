@@ -1,9 +1,9 @@
-name: bw25arm
+name: premise
 channels:
     - conda-forge
 dependencies:
     # core functionality
-    - python=3.11
+    - python=3.10
     # data science
     - pandas
     - numpy
@@ -11,5 +11,8 @@ dependencies:
     # jupyter
     - jupyterlab
     # lca
-    - cmutel::brightway25_nosolver
+    - cmutel::brightway2_nosolver
     - scikit-umfpack
+    - pip
+    - pip:
+        - premise

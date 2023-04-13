@@ -1,4 +1,4 @@
-name: bw25arm
+name: bw2arm
 channels:
     - conda-forge
 dependencies:
@@ -11,5 +11,5 @@ dependencies:
     # jupyter
     - jupyterlab
     # lca
-    - cmutel::brightway25_nosolver
+    - cmutel::brightway2_nosolver
     - scikit-umfpack
