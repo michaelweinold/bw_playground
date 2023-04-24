@@ -10,6 +10,9 @@ dependencies:
     - scipy
     # jupyter
     - jupyterlab
+    # visualization
+    - seaborn
     # lca
     - cmutel::brightway25_nosolver
+    - cmutel::bw_processing
     - scikit-umfpack
